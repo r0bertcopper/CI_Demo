@@ -1,5 +1,6 @@
-package com.seleniumsimplified.grid;
+package scripts;
 
+import core.Selenium;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -11,13 +12,13 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import static com.seleniumsimplified.junit.NavigationExampleTest.addDelay;
+
 import static org.junit.Assert.assertTrue;
 
 /**
  * Created by user on 02/07/2017.
  */
-public class Link_GRID {
+public class Link_GRID extends Selenium {
 
     private static WebDriver driver = null;
     final private String PROTOCOL = "http";
